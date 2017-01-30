@@ -1,6 +1,6 @@
 {
   "name": "@rfcode/rfc-serial",
-  "description": "A740 Rack Locator access server",
+  "description": "Generic Implementation of IOT-USB connected devices",
   "repository": {},
   "license": "unknown",
   "dependencies": [

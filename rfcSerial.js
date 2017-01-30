@@ -111,33 +111,6 @@ io.on('connection', function (socket) {
 ////////
 ////////
 
-// sendPortsList();
-/* Console Output
-Balajin-Mac:server balajin$ node rfcSerial.js 
-Server listening on port 8081
-port: { comName: '/dev/cu.Bluetooth-Incoming-Port',
-  manufacturer: undefined,
-  serialNumber: undefined,
-  pnpId: undefined,
-  locationId: undefined,
-  vendorId: undefined,
-  productId: undefined }
-port: { comName: '/dev/cu.balajinsiPhone-Wireless',
-  manufacturer: undefined,
-  serialNumber: undefined,
-  pnpId: undefined,
-  locationId: undefined,
-  vendorId: undefined,
-  productId: undefined }
-port: { comName: '/dev/cu.usbmodemFA131',
-  manufacturer: 'RF Code, Inc.',
-  serialNumber: undefined,
-  pnpId: undefined,
-  locationId: '0xfa130000',
-  vendorId: '0x1c40',
-  productId: '0x05f2' }
-will be sending 3ports to ui
-*/
 
 //openPort('/dev/cu.usbmodemFA131');
 /* Console Output (Note: with parser option set to "/n")
