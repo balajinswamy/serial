@@ -1,0 +1,13 @@
+{
+  "name": "@rfcode/rfc-serial",
+  "description": "A740 Rack Locator access server",
+  "repository": {},
+  "license": "unknown",
+  "dependencies": [
+    "express",
+    "socket.io",
+    "serialport",
+    "line-by-line",
+	"promise-queue"
+  ]
+}
